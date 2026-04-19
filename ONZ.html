@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organizacja Narodów Zjednoczonych</title>
+  <style>
+    :root{--ink:#16191d;--muted:#5d6672;--page:#f5f8fb;--card:#fff;--line:#d8e0ea;--un:#009edb;--green:#2f7d55;--red:#be3a34;--gold:#c89320;--graphite:#41464d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--page);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+    img{display:block;width:100%;height:100%;object-fit:cover;background:#e8eef5}.wrap{width:min(1180px,calc(100% - 28px));margin:auto}
+    header{border-bottom:1px solid var(--line);background:#fff}.top{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:18px 0}
+    .badge{display:inline-flex;align-items:center;min-height:34px;padding:6px 10px;border-radius:8px;background:var(--un);color:#fff;font-weight:800}
+    nav{display:flex;flex-wrap:wrap;gap:8px}nav a{padding:8px 10px;border:1px solid var(--line);border-radius:8px;color:var(--ink);text-decoration:none;background:#fff}
+    .hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:24px;align-items:stretch;padding:22px 0 30px}
+    h1{margin:0 0 14px;font-size:3.55rem;line-height:1;letter-spacing:0;overflow-wrap:anywhere}h2{margin:0 0 14px;font-size:2rem;line-height:1.15;letter-spacing:0}h3{margin:0 0 8px;font-size:1.12rem}p{margin:0}
+    .lead{max-width:780px;color:var(--muted);font-size:1.08rem}.note{color:var(--muted);font-size:.96rem}
+    figure{margin:0;min-height:320px;border-radius:8px;overflow:hidden;position:relative;border:1px solid var(--line);background:#fff}
+    figcaption{position:absolute;left:0;right:0;bottom:0;padding:12px 14px;color:white;background:linear-gradient(0deg,rgba(0,0,0,.72),rgba(0,0,0,0));font-weight:700}
+    main{padding:26px 0 54px}section{margin-top:38px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.people{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+    .card{border:1px solid var(--line);border-radius:8px;background:var(--card);overflow:hidden}.card img{height:220px}.people img{height:245px;object-position:top center}.logo img{height:130px;object-fit:contain;padding:18px;background:#fff}.body{padding:14px}.body p{color:var(--muted)}
+    .fact,.method{border:1px solid var(--line);border-radius:8px;background:#fff}.fact{padding:16px}.fact strong{display:block;margin-bottom:6px;color:var(--un);font-size:1.55rem;line-height:1}.method{display:grid;gap:10px;padding:14px}.method b{color:var(--un)}
+    .table-scroll{overflow-x:auto;border-radius:8px}table{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:#edf6fb;color:#22333f}tr:last-child td{border-bottom:0}.compact td,.compact th{padding:8px 9px;font-size:.94rem}.region{background:#f6f9fc;font-weight:800;color:var(--un)}
+    .pill{display:inline-flex;margin:0 6px 8px 0;padding:5px 8px;border-radius:8px;background:#eaf6fb;color:#1d5871;font-size:.86rem;font-weight:700}.source-list a{color:#1c5d78;overflow-wrap:anywhere}.flag{object-fit:contain;padding:12px;background:#fff}
+    @media(max-width:980px){h1{font-size:2.8rem}.hero,.two{grid-template-columns:1fr}.people,.grid,.stats{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:620px){.wrap{width:min(100% - 22px,1180px)}h1{font-size:2.2rem}h2{font-size:1.55rem}.people,.grid,.stats{grid-template-columns:1fr}figure{min-height:235px}.compact{font-size:.9rem;min-width:760px}th,td{padding:8px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><div class="top"><span class="badge">ONZ</span><nav><a href="#podstawy">Podstawy</a><a href="#organy">Organy</a><a href="#sekretarze">Sekretarze</a><a href="#system">System ONZ</a><a href="#misje">Misje</a><a href="#pozaonz">Poza ONZ</a><a href="#polska">Polska</a></nav></div>
+<div class="hero"><div><h1>Organizacja Narodów Zjednoczonych</h1><p class="lead">Cele i zasady działania ONZ, główne organy, sekretarze generalni, agendy systemu Narodów Zjednoczonych oraz pełna lista operacji pokojowych „błękitnych hełmów” według oficjalnych wykazów UN Peacekeeping.</p></div><figure><img class="flag" src="https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Nations.svg?width=1280" alt="Flaga Organizacji Narodów Zjednoczonych" loading="eager" decoding="async" fetchpriority="high"><figcaption>Flaga Organizacji Narodów Zjednoczonych</figcaption></figure></div></div></header>
+<main class="wrap">
+  <section id="podstawy">
+    <h2>Podstawy i cele ONZ</h2>
+    <div class="stats">
+      <div class="fact"><strong>1945</strong><p>rok powstania ONZ i wejścia w życie Karty Narodów Zjednoczonych</p></div>
+      <div class="fact"><strong>193</strong><p>państwa członkowskie; najmłodszy członek to Sudan Południowy</p></div>
+      <div class="fact"><strong>6</strong><p>głównych organów ustanowionych w Karcie ONZ</p></div>
+      <div class="fact"><strong>11</strong><p>aktualnych operacji pokojowych UN Peacekeeping w 2026 r.</p></div>
+    </div>
+    <div class="two" style="margin-top:16px">
+      <div class="method"><h3>Cele z Karty Narodów Zjednoczonych</h3><p><b>Pokój i bezpieczeństwo:</b> zapobieganie wojnom, usuwanie zagrożeń dla pokoju, przeciwdziałanie agresji i pokojowe rozwiązywanie sporów.</p><p><b>Przyjazne stosunki między narodami:</b> równe prawa państw i narodów oraz prawo narodów do samostanowienia.</p><p><b>Współpraca międzynarodowa:</b> rozwiązywanie problemów gospodarczych, społecznych, kulturalnych i humanitarnych.</p><p><b>Prawa człowieka:</b> promowanie wolności podstawowych bez względu na rasę, płeć, język lub religię.</p></div>
+      <div class="method"><h3>Zasady działania</h3><p><b>Suwerenna równość państw:</b> każde państwo członkowskie ma równy status prawny.</p><p><b>Wykonywanie zobowiązań:</b> państwa mają wypełniać obowiązki wynikające z Karty ONZ.</p><p><b>Pokojowe rozstrzyganie sporów:</b> konflikty powinny być rozwiązywane bez narażania pokoju i sprawiedliwości.</p><p><b>Zakaz groźby i użycia siły:</b> siła nie może być używana przeciw integralności terytorialnej lub niezależności politycznej państw, poza wyjątkami przewidzianymi w Karcie.</p><p><b>Wspieranie działań ONZ:</b> członkowie mają pomagać Organizacji w działaniach zgodnych z Kartą.</p></div>
+    </div>
+  </section>
+
+  <section id="organy">
+    <h2>Główne organy ONZ</h2>
+    <div class="grid">
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/UN%20General%20Assembly%20hall.jpg?width=720" alt="Sala Zgromadzenia Ogólnego ONZ" loading="lazy" decoding="async"><div class="body"><h3>Zgromadzenie Ogólne</h3><p>Forum wszystkich 193 państw. Uchwala rezolucje, budżet, wybiera członków organów i debatuje nad problemami świata.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20Headquarters%20-%20Security%20Council%20chamber%2C%20angled%20view.jpg?width=720" alt="Sala Rady Bezpieczeństwa ONZ" loading="lazy" decoding="async"><div class="body"><h3>Rada Bezpieczeństwa</h3><p>Odpowiada za pokój i bezpieczeństwo. Ma 5 stałych członków z prawem weta i 10 członków niestałych.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20Headquarters%20in%20New%20York%20City%2C%20view%20from%20Roosevelt%20Island.jpg?width=720" alt="Siedziba ONZ w Nowym Jorku" loading="lazy" decoding="async"><div class="body"><h3>Sekretariat</h3><p>Administracja ONZ kierowana przez Sekretarza Generalnego. Przygotowuje raporty, obsługuje misje i wykonuje mandaty organów.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20Economic%20and%20Social%20Council%20chamber%20New%20York%20City.JPG?width=720" alt="Sala ECOSOC w siedzibie ONZ" loading="lazy" decoding="async"><div class="body"><h3>ECOSOC</h3><p>Rada Gospodarcza i Społeczna koordynuje działania gospodarcze, społeczne, rozwojowe i środowiskowe.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/International%20Court%20of%20Justice%20HQ%202006.jpg?width=720" alt="Międzynarodowy Trybunał Sprawiedliwości w Hadze" loading="lazy" decoding="async"><div class="body"><h3>Międzynarodowy Trybunał Sprawiedliwości</h3><p>Główny organ sądowy ONZ. Rozstrzyga spory między państwami i wydaje opinie doradcze.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/UN%20Council%20Chamber.jpg?width=720" alt="Sala Rady Powierniczej ONZ" loading="lazy" decoding="async"><div class="body"><h3>Rada Powiernicza</h3><p>Nadzorowała terytoria powiernicze. Od 1994 r. zasadniczo nie prowadzi stałej pracy.</p></div></article>
+    </div>
+    <div class="table-scroll" style="margin-top:16px"><table><thead><tr><th>Organ</th><th>Skład</th><th>Najważniejsze kompetencje</th></tr></thead><tbody>
+      <tr><td>Zgromadzenie Ogólne</td><td>Wszystkie państwa członkowskie, każde ma jeden głos.</td><td>Debata globalna, rezolucje, budżet ONZ, wybór członków RB i ECOSOC, przyjmowanie nowych państw na rekomendację RB.</td></tr>
+      <tr><td>Rada Bezpieczeństwa</td><td>15 państw: Chiny, Francja, Rosja, USA, Wielka Brytania oraz 10 członków niestałych.</td><td>Rezolucje wiążące, sankcje, mandaty operacji pokojowych, autoryzacja użycia siły w ramach Karty ONZ.</td></tr>
+      <tr><td>ECOSOC</td><td>54 członków wybieranych przez Zgromadzenie Ogólne na 3 lata.</td><td>Koordynacja rozwoju, gospodarki, spraw społecznych, zdrowia, edukacji, środowiska i współpracy z organizacjami pozarządowymi.</td></tr>
+      <tr><td>Sekretariat</td><td>Sekretarz Generalny i międzynarodowi urzędnicy ONZ.</td><td>Codzienna praca Organizacji, raporty, mediacje, obsługa misji, administracja i wdrażanie decyzji organów.</td></tr>
+      <tr><td>Międzynarodowy Trybunał Sprawiedliwości</td><td>15 sędziów wybieranych na 9 lat przez Zgromadzenie Ogólne i Radę Bezpieczeństwa.</td><td>Spory prawne między państwami i opinie doradcze dla organów ONZ oraz agencji wyspecjalizowanych.</td></tr>
+      <tr><td>Rada Powiernicza</td><td>Organ historyczny.</td><td>Kontrola terytoriów powierniczych i przygotowanie ich do samorządu lub niepodległości.</td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section id="sekretarze">
+    <h2>Sekretarze generalni ONZ</h2>
+    <div class="people">
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ant%C3%B3nio%20Guterres%20March%202024%203x4%20portrait.jpg?width=640" alt="António Guterres" loading="lazy" decoding="async"><div class="body"><h3>António Guterres</h3><p>Portugalia. Dziewiąty Sekretarz Generalny ONZ, urząd od 1 stycznia 2017 r.; druga kadencja trwa do końca 2026 r.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ban%20Ki-moon%20February%202016.jpg?width=640" alt="Ban Ki-moon" loading="lazy" decoding="async"><div class="body"><h3>Ban Ki-moon</h3><p>Republika Korei. Sekretarz Generalny w latach 2007-2016.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kofi%20Annan%202012.jpg?width=640" alt="Kofi Annan" loading="lazy" decoding="async"><div class="body"><h3>Kofi Annan</h3><p>Ghana. Sekretarz Generalny w latach 1997-2006; laureat Pokojowej Nagrody Nobla razem z ONZ.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dag%20Hammarskj%C3%B6ld%20%283x4%20cropped%29.jpg?width=640" alt="Dag Hammarskjöld" loading="lazy" decoding="async"><div class="body"><h3>Dag Hammarskjöld</h3><p>Szwecja. Sekretarz Generalny w latach 1953-1961; zginął podczas misji pokojowej w Afryce.</p></div></article>
+    </div>
+    <div class="table-scroll" style="margin-top:16px"><table class="compact"><thead><tr><th>Osoba</th><th>Państwo</th><th>Kadencja</th></tr></thead><tbody>
+      <tr><td>Trygve Lie</td><td>Norwegia</td><td>1946-1952</td></tr><tr><td>Dag Hammarskjöld</td><td>Szwecja</td><td>1953-1961</td></tr><tr><td>U Thant</td><td>Birma / Mjanma</td><td>1961-1971</td></tr><tr><td>Kurt Waldheim</td><td>Austria</td><td>1972-1981</td></tr><tr><td>Javier Pérez de Cuéllar</td><td>Peru</td><td>1982-1991</td></tr><tr><td>Boutros Boutros-Ghali</td><td>Egipt</td><td>1992-1996</td></tr><tr><td>Kofi Annan</td><td>Ghana</td><td>1997-2006</td></tr><tr><td>Ban Ki-moon</td><td>Republika Korei</td><td>2007-2016</td></tr><tr><td>António Guterres</td><td>Portugalia</td><td>od 2017</td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section id="system">
+    <h2>System ONZ: programy, fundusze i agencje</h2>
+    <p class="note">ONZ ma własne organy główne, ale działa też przez programy, fundusze i wyspecjalizowane organizacje powiązane umowami z ONZ.</p>
+    <div class="grid" style="margin-top:16px">
+      <article class="card logo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/UNICEF%20Logo.png?width=640" alt="Logo UNICEF" loading="lazy" decoding="async"><div class="body"><h3>UNICEF</h3><p>Fundusz na rzecz Dzieci: szczepienia, edukacja, pomoc humanitarna i ochrona praw dziecka.</p></div></article>
+      <article class="card logo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/UNDP%20logo.svg?width=640" alt="Logo UNDP" loading="lazy" decoding="async"><div class="body"><h3>UNDP</h3><p>Program ds. Rozwoju: ubóstwo, dobre rządzenie, odporność państw i rozwój lokalny.</p></div></article>
+      <article class="card logo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/World%20Food%20Programme%20Logo%20Simple.svg?width=640" alt="Logo WFP" loading="lazy" decoding="async"><div class="body"><h3>WFP</h3><p>Światowy Program Żywnościowy: pomoc żywnościowa w kryzysach i przeciwdziałanie głodowi.</p></div></article>
+      <article class="card logo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/World%20Health%20Organization%20Logo.svg?width=640" alt="Logo WHO" loading="lazy" decoding="async"><div class="body"><h3>WHO</h3><p>Światowa Organizacja Zdrowia: zdrowie publiczne, epidemie, szczepienia i standardy medyczne.</p></div></article>
+      <article class="card logo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/UNESCO%20logo.svg?width=640" alt="Logo UNESCO" loading="lazy" decoding="async"><div class="body"><h3>UNESCO</h3><p>Edukacja, nauka, kultura, komunikacja oraz lista światowego dziedzictwa.</p></div></article>
+      <article class="card logo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/FAO%20logo.svg?width=640" alt="Logo FAO" loading="lazy" decoding="async"><div class="body"><h3>FAO</h3><p>Wyżywienie i rolnictwo: bezpieczeństwo żywnościowe, rolnictwo, rybołówstwo i leśnictwo.</p></div></article>
+      <article class="card logo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/International%20Labour%20Organization%20Logo.svg?width=640" alt="Logo ILO" loading="lazy" decoding="async"><div class="body"><h3>ILO</h3><p>Międzynarodowa Organizacja Pracy: standardy pracy, prawa pracowników i dialog społeczny.</p></div></article>
+      <article class="card logo"><img src="https://en.wikipedia.org/wiki/Special:FilePath/International%20Monetary%20Fund%20logo.svg" alt="Logo IMF" loading="lazy" decoding="async"><div class="body"><h3>IMF / MFW</h3><p>Międzynarodowy Fundusz Walutowy: stabilność finansowa, kursy walut i wsparcie makroekonomiczne.</p></div></article>
+      <article class="card logo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/World%20Bank%20logo.svg?width=640" alt="Logo Banku Światowego" loading="lazy" decoding="async"><div class="body"><h3>Grupa Banku Światowego</h3><p>Finansowanie rozwoju, infrastruktury, reform gospodarczych i ograniczania ubóstwa.</p></div></article>
+    </div>
+    <div class="method" style="margin-top:16px"><h3>Inne ważne jednostki</h3><p><span class="pill">UNHCR</span> uchodźcy. <span class="pill">UNFPA</span> demografia i zdrowie reprodukcyjne. <span class="pill">UNEP</span> środowisko. <span class="pill">UN-Habitat</span> miasta. <span class="pill">ICAO</span> lotnictwo cywilne. <span class="pill">ITU</span> telekomunikacja. <span class="pill">IAEA</span> energia atomowa. <span class="pill">UNIDO</span> rozwój przemysłowy. <span class="pill">WIPO</span> własność intelektualna. <span class="pill">WTO</span> współpracuje z systemem ONZ, choć nie jest agencją wyspecjalizowaną ONZ.</p></div>
+  </section>
+
+  <section id="misje">
+    <h2>Misje „błękitnych hełmów”</h2>
+    <div class="two">
+      <div class="method"><h3>Trzy zasady peacekeepingu ONZ</h3><p><b>Zgoda stron konfliktu:</b> misja działa po uzyskaniu zgody głównych stron.</p><p><b>Bezstronność:</b> misja nie popiera jednej strony, ale reaguje na naruszenia mandatu.</p><p><b>Siła tylko wyjątkowo:</b> użycie siły jest dopuszczalne w samoobronie i obronie mandatu.</p></div>
+      <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/UNIFIL%20%288878255489%29.jpg?width=900" alt="Żołnierze sił pokojowych ONZ" loading="lazy" decoding="async"><figcaption>Żołnierze sił pokojowych ONZ</figcaption></figure>
+    </div>
+    <h2 style="margin-top:28px">Aktualne operacje pokojowe ONZ</h2>
+    <div class="table-scroll"><table class="compact"><thead><tr><th>Skrót</th><th>Pełna nazwa</th><th>Obszar</th><th>Od</th></tr></thead><tbody>
+      <tr><td>MINURSO</td><td>United Nations Mission for the Referendum in Western Sahara</td><td>Sahara Zachodnia</td><td>1991</td></tr>
+      <tr><td>MINUSCA</td><td>United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic</td><td>Republika Środkowoafrykańska</td><td>2014</td></tr>
+      <tr><td>MONUSCO</td><td>United Nations Organization Stabilization Mission in the Democratic Republic of the Congo</td><td>Demokratyczna Republika Konga</td><td>2010</td></tr>
+      <tr><td>UNDOF</td><td>United Nations Disengagement Observer Force</td><td>Wzgórza Golan</td><td>1974</td></tr>
+      <tr><td>UNFICYP</td><td>United Nations Peacekeeping Force in Cyprus</td><td>Cypr</td><td>1964</td></tr>
+      <tr><td>UNIFIL</td><td>United Nations Interim Force in Lebanon</td><td>Liban</td><td>1978</td></tr>
+      <tr><td>UNISFA</td><td>United Nations Interim Security Force for Abyei</td><td>Abyei</td><td>2011</td></tr>
+      <tr><td>UNMIK</td><td>United Nations Interim Administration Mission in Kosovo</td><td>Kosowo</td><td>1999</td></tr>
+      <tr><td>UNMISS</td><td>United Nations Mission in South Sudan</td><td>Sudan Południowy</td><td>2011</td></tr>
+      <tr><td>UNMOGIP</td><td>United Nations Military Observer Group in India and Pakistan</td><td>Indie i Pakistan</td><td>1949</td></tr>
+      <tr><td>UNTSO</td><td>United Nations Truce Supervision Organization</td><td>Bliski Wschód</td><td>1948</td></tr>
+    </tbody></table></div>
+    <h2 style="margin-top:28px">Zakończone operacje pokojowe ONZ</h2>
+    <div class="table-scroll"><table class="compact"><thead><tr><th>Region</th><th>Skrót</th><th>Pełna nazwa</th><th>Czas działania</th></tr></thead><tbody>
+      <tr><td class="region">Afryka</td><td>UNAMID</td><td>African Union - United Nations Hybrid Operation in Darfur</td><td>Jul 2007 - Dec 2020</td></tr>
+      <tr><td>Afryka</td><td>UNMIL</td><td>United Nations Mission in Liberia</td><td>Sep 2003 - Mar 2018</td></tr>
+      <tr><td>Afryka</td><td>UNOCI</td><td>United Nations Operation in Côte d'Ivoire</td><td>Apr 2004 - Jun 2017</td></tr>
+      <tr><td>Afryka</td><td>UNMIS</td><td>United Nations Mission in the Sudan</td><td>Mar 2005 - Jul 2011</td></tr>
+      <tr><td>Afryka</td><td>MINURCAT</td><td>United Nations Mission in the Central African Republic and Chad</td><td>Sep 2007 - Dec 2010</td></tr>
+      <tr><td>Afryka</td><td>MONUC</td><td>United Nations Organization Mission in the Democratic Republic of the Congo</td><td>Nov 1999 - Jun 2010</td></tr>
+      <tr><td>Afryka</td><td>UNMEE</td><td>United Nations Mission in Ethiopia and Eritrea</td><td>Jul 2000 - Jul 2008</td></tr>
+      <tr><td>Afryka</td><td>ONUB</td><td>United Nations Operation in Burundi</td><td>May 2004 - Dec 2006</td></tr>
+      <tr><td>Afryka</td><td>UNAMSIL</td><td>United Nations Mission in Sierra Leone</td><td>Oct 1999 - Dec 2005</td></tr>
+      <tr><td>Afryka</td><td>MINUCI</td><td>United Nations Mission in Côte d'Ivoire</td><td>May 2003 - Apr 2004</td></tr>
+      <tr><td>Afryka</td><td>MINURCA</td><td>United Nations Mission in the Central African Republic</td><td>Mar 1998 - Feb 2000</td></tr>
+      <tr><td>Afryka</td><td>MINUSMA</td><td>United Nations Multidimensional Integrated Stabilization Mission in Mali</td><td>Apr 2013 - Dec 2023</td></tr>
+      <tr><td>Afryka</td><td>UNOMSIL</td><td>United Nations Observer Mission in Sierra Leone</td><td>Jul 1998 - Oct 1999</td></tr>
+      <tr><td>Afryka</td><td>MONUA</td><td>United Nations Observer Mission in Angola</td><td>Jun 1997 - Feb 1999</td></tr>
+      <tr><td>Afryka</td><td>UNOMIL</td><td>United Nations Observer Mission in Liberia</td><td>Sep 1993 - Sep 1997</td></tr>
+      <tr><td>Afryka</td><td>UNAVEM III</td><td>United Nations Angola Verification Mission III</td><td>Feb 1995 - Jun 1997</td></tr>
+      <tr><td>Afryka</td><td>UNAMIR</td><td>United Nations Assistance Mission for Rwanda</td><td>Oct 1993 - Mar 1996</td></tr>
+      <tr><td>Afryka</td><td>UNOSOM II</td><td>United Nations Operation in Somalia II</td><td>Mar 1993 - Mar 1995</td></tr>
+      <tr><td>Afryka</td><td>UNAVEM II</td><td>United Nations Angola Verification Mission II</td><td>May 1991 - Feb 1995</td></tr>
+      <tr><td>Afryka</td><td>ONUMOZ</td><td>United Nations Operation in Mozambique</td><td>Dec 1992 - Dec 1994</td></tr>
+      <tr><td>Afryka</td><td>UNOMUR</td><td>United Nations Observer Mission Uganda - Rwanda</td><td>Jun 1993 - Sep 1994</td></tr>
+      <tr><td>Afryka</td><td>UNASOG</td><td>United Nations Aouzou Strip Observer Group</td><td>May 1994 - Jun 1994</td></tr>
+      <tr><td>Afryka</td><td>UNOSOM I</td><td>United Nations Operation in Somalia I</td><td>Apr 1992 - Mar 1993</td></tr>
+      <tr><td>Afryka</td><td>UNAVEM I</td><td>United Nations Angola Verification Mission I</td><td>Dec 1989 - Jun 1991</td></tr>
+      <tr><td>Afryka</td><td>UNTAG</td><td>United Nations Transition Assistance Group</td><td>Apr 1989 - Mar 1990</td></tr>
+      <tr><td>Afryka</td><td>ONUC</td><td>United Nations Operation in the Congo</td><td>Jul 1960 - Jun 1964</td></tr>
+      <tr><td class="region">Ameryki</td><td>MINUJUSTH</td><td>United Nations Mission for Justice Support in Haiti</td><td>Oct 2017 - Oct 2019</td></tr>
+      <tr><td>Ameryki</td><td>MINUSTAH</td><td>United Nations Stabilization Mission in Haiti</td><td>Jun 2004 - Oct 2017</td></tr>
+      <tr><td>Ameryki</td><td>MIPONUH</td><td>United Nations Civilian Police Mission in Haiti</td><td>Nov 1997 - Mar 2000</td></tr>
+      <tr><td>Ameryki</td><td>UNTMIH</td><td>United Nations Transition Mission in Haiti</td><td>Jul 1997 - Nov 1997</td></tr>
+      <tr><td>Ameryki</td><td>UNSMIH</td><td>United Nations Support Mission in Haiti</td><td>Jun 1996 - Jul 1997</td></tr>
+      <tr><td>Ameryki</td><td>MINUGUA</td><td>United Nations Verification Mission in Guatemala</td><td>Jan 1997 - May 1997</td></tr>
+      <tr><td>Ameryki</td><td>UNMIH</td><td>United Nations Mission in Haiti</td><td>Sep 1993 - Jun 1996</td></tr>
+      <tr><td>Ameryki</td><td>ONUSAL</td><td>United Nations Observer Mission in El Salvador</td><td>May 1991 - Apr 1995</td></tr>
+      <tr><td>Ameryki</td><td>ONUCA</td><td>United Nations Observer Group in Central America</td><td>Nov 1989 - Jan 1992</td></tr>
+      <tr><td>Ameryki</td><td>DOMREP</td><td>Mission of the Representative of the Secretary-General in the Dominican Republic</td><td>May 1965 - Oct 1966</td></tr>
+      <tr><td class="region">Azja i Pacyfik</td><td>UNMIT</td><td>United Nations Integrated Mission in Timor-Leste</td><td>Aug 2006 - Dec 2012</td></tr>
+      <tr><td>Azja i Pacyfik</td><td>UNMISET</td><td>United Nations Mission of Support in East Timor</td><td>May 2002 - May 2005</td></tr>
+      <tr><td>Azja i Pacyfik</td><td>UNTAET</td><td>United Nations Transitional Administration in East Timor</td><td>Oct 1999 - May 2002</td></tr>
+      <tr><td>Azja i Pacyfik</td><td>UNMOT</td><td>United Nations Mission of Observers in Tajikistan</td><td>Dec 1994 - May 2000</td></tr>
+      <tr><td>Azja i Pacyfik</td><td>UNTAC</td><td>United Nations Transitional Authority in Cambodia</td><td>Feb 1992 - Sep 1993</td></tr>
+      <tr><td>Azja i Pacyfik</td><td>UNAMIC</td><td>United Nations Advance Mission in Cambodia</td><td>Oct 1991 - Mar 1992</td></tr>
+      <tr><td>Azja i Pacyfik</td><td>UNGOMAP</td><td>United Nations Good Offices Mission in Afghanistan and Pakistan</td><td>May 1988 - Mar 1990</td></tr>
+      <tr><td>Azja i Pacyfik</td><td>UNIPOM</td><td>United Nations India - Pakistan Observation Mission</td><td>Sep 1965 - Mar 1966</td></tr>
+      <tr><td>Azja i Pacyfik</td><td>UNSF</td><td>United Nations Security Force in West New Guinea</td><td>Oct 1962 - Apr 1963</td></tr>
+      <tr><td class="region">Europa</td><td>UNOMIG</td><td>United Nations Observer Mission in Georgia</td><td>Aug 1993 - Jun 2009</td></tr>
+      <tr><td>Europa</td><td>UNMOP</td><td>United Nations Mission of Observers in Prevlaka</td><td>Feb 1996 - Dec 2002</td></tr>
+      <tr><td>Europa</td><td>UNMIBH</td><td>United Nations Mission in Bosnia and Herzegovina</td><td>Dec 1995 - Dec 2002</td></tr>
+      <tr><td>Europa</td><td>UNPREDEP</td><td>United Nations Preventive Deployment Force</td><td>Mar 1995 - Feb 1999</td></tr>
+      <tr><td>Europa</td><td>UNCPSG</td><td>United Nations Civilian Police Support Group</td><td>Jan 1998 - Oct 1998</td></tr>
+      <tr><td>Europa</td><td>UNTAES</td><td>United Nations Transitional Administration for Eastern Slavonia, Baranja and Western Sirmium</td><td>Jan 1996 - Jan 1998</td></tr>
+      <tr><td>Europa</td><td>UNCRO</td><td>United Nations Confidence Restoration Operation in Croatia</td><td>Mar 1995 - Jan 1996</td></tr>
+      <tr><td>Europa</td><td>UNPROFOR</td><td>United Nations Protection Force</td><td>Feb 1992 - Mar 1995</td></tr>
+      <tr><td class="region">Bliski Wschód</td><td>UNSMIS</td><td>United Nations Supervision Mission in Syria</td><td>Apr 2012 - Aug 2012</td></tr>
+      <tr><td>Bliski Wschód</td><td>UNIKOM</td><td>United Nations Iraq - Kuwait Observation Mission</td><td>Apr 1991 - Oct 2003</td></tr>
+      <tr><td>Bliski Wschód</td><td>UNIIMOG</td><td>United Nations Iran - Iraq Military Observer Group</td><td>Aug 1988 - Feb 1991</td></tr>
+      <tr><td>Bliski Wschód</td><td>UNEF II</td><td>United Nations Emergency Force II</td><td>Oct 1973 - Jul 1979</td></tr>
+      <tr><td>Bliski Wschód</td><td>UNEF I</td><td>United Nations Emergency Force I</td><td>Nov 1956 - Jun 1967</td></tr>
+      <tr><td>Bliski Wschód</td><td>UNYOM</td><td>United Nations Yemen Observation Mission</td><td>Jun 1963 - Sep 1964</td></tr>
+      <tr><td>Bliski Wschód</td><td>UNOGIL</td><td>United Nations Observation Group in Lebanon</td><td>Jun 1958 - Dec 1958</td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section id="pozaonz">
+    <h2>Kraje i terytoria poza ONZ</h2>
+    <div class="two">
+      <div class="method"><h3>To są obserwatorzy, nie członkowie</h3><p><b>Stolica Apostolska / Watykan</b> nie jest państwem członkowskim ONZ, bo zachowuje status stałego obserwatora. Może uczestniczyć w pracach Zgromadzenia Ogólnego, ale nie głosuje jak członek.</p><p><b>Palestyna</b> ma status nieczłonkowskiego państwa obserwatora od 2012 r. Pełne członkostwo wymaga rekomendacji Rady Bezpieczeństwa i decyzji Zgromadzenia Ogólnego, a sprawa pozostaje politycznie sporna.</p></div>
+      <div class="method"><h3>Najczęściej mylone przypadki</h3><p><b>Tajwan / Republika Chińska</b> nie ma miejsca w ONZ od 1971 r., gdy miejsce Chin przyznano Chińskiej Republice Ludowej. Przeszkodą jest spór o reprezentację Chin i sprzeciw Pekinu.</p><p><b>Kosowo</b> ogłosiło niepodległość w 2008 r. i jest uznawane przez część państw, ale nie przez Serbię, Rosję, Chiny i część członków ONZ. Bez zgody Rady Bezpieczeństwa nie może zostać przyjęte.</p><p><b>Sahara Zachodnia</b> jest terytorium spornym. Część obszaru kontroluje Maroko, a Front Polisario ogłosił Saharyjską Arabską Republikę Demokratyczną. ONZ traktuje sprawę jako problem dekolonizacji i procesu politycznego.</p></div>
+    </div>
+    <div class="table-scroll" style="margin-top:16px"><table><thead><tr><th>Podmiot</th><th>Status wobec ONZ</th><th>Dlaczego nie jest zwykłym członkiem ONZ?</th></tr></thead><tbody>
+      <tr><td>Stolica Apostolska / Watykan</td><td>Nieczłonkowskie państwo obserwator</td><td>Utrzymuje szczególny status dyplomatyczny i nie ubiega się o zwykłe członkostwo.</td></tr>
+      <tr><td>Palestyna</td><td>Nieczłonkowskie państwo obserwator</td><td>Spór izraelsko-palestyński i brak pełnej zgody politycznej w Radzie Bezpieczeństwa.</td></tr>
+      <tr><td>Tajwan</td><td>Poza ONZ</td><td>ONZ uznaje ChRL za reprezentanta Chin; większość państw stosuje politykę jednych Chin.</td></tr>
+      <tr><td>Kosowo</td><td>Poza ONZ</td><td>Częściowe uznanie międzynarodowe i sprzeciw Serbii oraz stałych członków RB.</td></tr>
+      <tr><td>Sahara Zachodnia</td><td>Terytorium sporne</td><td>Nierozstrzygnięty status terytorium; działa misja MINURSO i proces polityczny pod auspicjami ONZ.</td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section id="polska">
+    <h2>Polska w ONZ i w misjach pokojowych</h2>
+    <div class="people">
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Poland.svg?width=720" alt="Flaga Polski" class="flag" loading="lazy" decoding="async"><div class="body"><h3>Państwo założycielskie</h3><p>Polska została zaliczona do państw założycielskich ONZ. Kartę Narodów Zjednoczonych podpisała 15 października 1945 r. i ratyfikowała dzień później.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20Headquarters%20-%20Security%20Council%20chamber%2C%20angled%20view.jpg?width=720" alt="Rada Bezpieczeństwa ONZ" loading="lazy" decoding="async"><div class="body"><h3>Rada Bezpieczeństwa</h3><p>Polska była niestałym członkiem RB: 1946-1947, 1960, 1970-1971, 1982-1983, 1996-1997 oraz 2018-2019.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/02019%201035%20%283%29%20J%C4%99draszewski%2C%20Bubula%2C%20Szczerski.jpg?width=640" alt="Krzysztof Szczerski" loading="lazy" decoding="async"><div class="body"><h3>Krzysztof Szczerski</h3><p>Stały Przedstawiciel RP przy ONZ w Nowym Jorku. Polska ma też przedstawicielstwa przy ONZ w Genewie, Wiedniu, Nairobi, Rzymie i delegację przy UNESCO.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/%22Unifil%22%20Lebanon%20Naqoura.jpg?width=720" alt="Polski kontyngent w misji UNIFIL" loading="lazy" decoding="async"><div class="body"><h3>Polski kontyngent UNIFIL</h3><p>Polskie „błękitne hełmy” rozpoczęły udział w operacjach ONZ w 1973 r. w UNEF II. Obecnie największy wkład Polski to Liban.</p></div></article>
+    </div>
+    <div class="people" style="margin-top:16px">
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Adam%20Rapacki.jpg?width=640" alt="Adam Rapacki" loading="lazy" decoding="async"><div class="body"><h3>Adam Rapacki</h3><p>Minister spraw zagranicznych PRL. W 1957 r. przedstawił na forum ONZ plan strefy bezatomowej w Europie Środkowej.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Boguslaw%20Winid%202014.jpg?width=640" alt="Bogusław Winid" loading="lazy" decoding="async"><div class="body"><h3>Bogusław Winid</h3><p>Stały Przedstawiciel RP przy ONZ w Nowym Jorku w latach 2014-2017.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Amb.%20Joanna%20Wronecka.jpg?width=640" alt="Joanna Wronecka" loading="lazy" decoding="async"><div class="body"><h3>Joanna Wronecka</h3><p>Stała Przedstawiciel RP przy ONZ w latach 2017-2021; później specjalna koordynatorka ONZ ds. Libanu.</p></div></article>
+      <article class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Krzysztof%20Szczerski%20%28cropped%29.jpg?width=640" alt="Krzysztof Szczerski" loading="lazy" decoding="async"><div class="body"><h3>Polska dyplomacja</h3><p>Stałe przedstawicielstwo w Nowym Jorku reprezentuje Polskę przy głównych organach ONZ, w tym przy Zgromadzeniu Ogólnym i Radzie Bezpieczeństwa.</p></div></article>
+    </div>
+    <div class="two" style="margin-top:16px">
+      <div class="method"><h3>Polacy w strukturach ONZ</h3><p><b>Adam Rapacki</b> - minister spraw zagranicznych PRL, w 1957 r. przedstawił na forum ONZ plan strefy bezatomowej w Europie Środkowej.</p><p><b>Krzysztof Szczerski</b> - Stały Przedstawiciel RP przy ONZ w Nowym Jorku; w latach 2022-2024 członek Rady Zarządzającej UN-Habitat.</p><p><b>Bogusław Winid</b> - Stały Przedstawiciel RP przy ONZ w Nowym Jorku w latach 2014-2017.</p><p><b>Joanna Wronecka</b> - Stała Przedstawiciel RP przy ONZ w latach 2017-2021, później specjalna koordynatorka ONZ ds. Libanu.</p></div>
+      <div class="method"><h3>Aktualny udział Polski w misjach ONZ</h3><p>Dane UN Peacekeeping z raportu na dzień <b>28 lutego 2026 r.</b> wskazują polski personel w pięciu operacjach pokojowych.</p><p><b>UNIFIL:</b> 141 osób, w tym 138 żołnierzy kontyngentu i 3 oficerów sztabowych.</p><p><b>MINURSO:</b> 1 ekspertka/obserwatorka wojskowa.</p><p><b>UNMIK:</b> 1 ekspertka.</p><p><b>UNMISS:</b> 1 ekspertka/obserwatorka wojskowa.</p><p><b>UNTSO:</b> 4 ekspertów wojskowych, w tym 1 kobieta.</p></div>
+    </div>
+    <div class="table-scroll" style="margin-top:16px"><table><thead><tr><th>Obszar</th><th>Najważniejsze informacje</th></tr></thead><tbody>
+      <tr><td>Rada Bezpieczeństwa</td><td>Polska przewodniczyła Radzie Bezpieczeństwa podczas kadencji 2018-2019 dwukrotnie: w maju 2018 r. i sierpniu 2019 r.</td></tr>
+      <tr><td>Rada Praw Człowieka</td><td>Polska była członkiem Rady Praw Człowieka w latach 2006-2007, 2010-2013 oraz 2020-2022.</td></tr>
+      <tr><td>UN-Habitat</td><td>W 2022 r. Światowe Forum Miejskie WUF11 odbyło się w Katowicach.</td></tr>
+      <tr><td>UNIFIL</td><td>Największy obecny polski wkład wojskowy w operacjach pokojowych ONZ. Misja stabilizuje południowy Liban.</td></tr>
+      <tr><td>Historia misji</td><td>Polacy uczestniczyli lub uczestniczą m.in. w UNEF II, UNDOF, UNIFIL, UNTAG, UNTAC, UNPROFOR, MINURCAT, MINURSO, UNMIK, UNMISS i UNTSO.</td></tr>
+    </tbody></table></div>
+    <h2 style="margin-top:28px">Misje ONZ z udziałem Polaków</h2>
+    <p class="note">Tabela obejmuje najważniejsze operacje ONZ, w których służyły zwarte polskie kontyngenty albo polscy obserwatorzy wojskowi, oficerowie sztabowi i eksperci. W misjach obserwacyjnych Polacy zwykle patrolują, raportują naruszenia rozejmu i wspierają dowództwa misji; w kontyngentach wykonują też zadania logistyczne, medyczne, inżynieryjne i ochronne.</p>
+    <div class="table-scroll" style="margin-top:16px"><table class="compact"><thead><tr><th>Misja</th><th>Rejon</th><th>Udział Polski</th><th>Co robili lub robią Polacy?</th></tr></thead><tbody>
+      <tr><td>UNEF II</td><td>Synaj, Egipt-Izrael</td><td>1973-1979/1980</td><td>Pierwszy duży polski kontyngent pod flagą ONZ. Logistyka, transport wody, żywności i paliwa, szpital polowy, zabezpieczenie medyczne i prace inżynieryjno-saperskie.</td></tr>
+      <tr><td>UNDOF</td><td>Wzgórza Golan, Syria-Izrael</td><td>od 1974 r.; kontyngent przez wiele lat</td><td>Początkowo logistyka i transport zaopatrzenia, później także zadania operacyjne, patrole w strefie rozdzielenia wojsk, obserwacja zawieszenia broni i wsparcie sanitarno-epidemiologiczne.</td></tr>
+      <tr><td>UNIFIL</td><td>Liban</td><td>1992-2009 oraz od 2019 r.; nadal</td><td>Ochrona rejonu odpowiedzialności, patrole, posterunki, wsparcie stabilizacji południowego Libanu, zabezpieczenie logistyczne i współpraca z siłami libańskimi. Według raportu ONZ z 28.02.2026: 138 polskich żołnierzy i 3 oficerów sztabowych.</td></tr>
+      <tr><td>UNTAG</td><td>Namibia</td><td>1989-1990</td><td>Wsparcie procesu przejścia Namibii do niepodległości, zadania logistyczne, transportowe i zabezpieczające przy demobilizacji i wyborach.</td></tr>
+      <tr><td>UNTAC</td><td>Kambodża</td><td>1992-1993</td><td>Polski batalion logistyczny wspierał misję przejściową ONZ: transport, magazyny, zaopatrzenie, obsługa uzbrojenia i amunicji, wsparcie wyborów i stabilizacji po wojnie domowej.</td></tr>
+      <tr><td>UNPROFOR</td><td>Była Jugosławia</td><td>1992-1995</td><td>Ochrona konwojów humanitarnych, posterunki, patrole, rozdzielanie stron konfliktu, wsparcie ludności cywilnej i obserwacja zawieszeń broni.</td></tr>
+      <tr><td>UNTAES</td><td>Wschodnia Slawonia</td><td>1996-1998</td><td>Wsparcie pokojowej reintegracji regionu po wojnach jugosłowiańskich, zadania obserwacyjne, logistyczne i stabilizacyjne.</td></tr>
+      <tr><td>UNCRO / UNMOP / UNMIBH</td><td>Chorwacja, Prevlaka, Bośnia i Hercegowina</td><td>lata 90.</td><td>Obserwatorzy, policjanci i specjaliści wspierali monitorowanie rozejmu, odbudowę bezpieczeństwa i zadania policyjne po konfliktach bałkańskich.</td></tr>
+      <tr><td>MINURCAT</td><td>Czad i Republika Środkowoafrykańska</td><td>2008-2009/2010</td><td>Polski kontyngent wspierał ochronę uchodźców i personelu humanitarnego, patrole, logistykę oraz bezpieczeństwo w rejonie misji.</td></tr>
+      <tr><td>MINURSO</td><td>Sahara Zachodnia</td><td>od 1991 r.; nadal obserwatorzy</td><td>Polscy obserwatorzy wojskowi monitorują sytuację, patrole i przestrzeganie porozumień wojskowych. Raport ONZ z 28.02.2026 wskazuje 1 osobę z Polski.</td></tr>
+      <tr><td>UNMIK</td><td>Kosowo</td><td>od 1999 r.; nadal pojedynczy personel</td><td>Wsparcie administracji międzynarodowej i stabilizacji po konflikcie. Raport ONZ z 28.02.2026 wskazuje 1 osobę z Polski.</td></tr>
+      <tr><td>UNMISS</td><td>Sudan Południowy</td><td>od 2011 r.; nadal obserwatorzy</td><td>Obserwacja bezpieczeństwa, ochrona ludności cywilnej przez raportowanie zagrożeń, praca w sztabach i wsparcie mandatu misji. Raport ONZ z 28.02.2026 wskazuje 1 osobę z Polski.</td></tr>
+      <tr><td>UNTSO</td><td>Bliski Wschód</td><td>nadal obserwatorzy</td><td>Polscy obserwatorzy wojskowi monitorują rozejmy i linie rozdzielenia, sporządzają raporty dla ONZ i wspierają inne misje w regionie. Raport ONZ z 28.02.2026 wskazuje 4 osoby z Polski.</td></tr>
+      <tr><td>MONUC / MONUSCO</td><td>Demokratyczna Republika Konga</td><td>obserwatorzy wojskowi</td><td>Monitorowanie sytuacji bezpieczeństwa, meldunki, praca w zespołach obserwacyjnych i sztabach misji.</td></tr>
+      <tr><td>UNMEE</td><td>Etiopia i Erytrea</td><td>obserwatorzy wojskowi</td><td>Obserwacja strefy buforowej, patrole i raportowanie naruszeń porozumień po konflikcie etiopsko-erytrejskim.</td></tr>
+      <tr><td>UNMIL / UNMIS / UNOMIG / UNIKOM / UNMOT</td><td>Liberia, Sudan, Gruzja, Irak-Kuwejt, Tadżykistan</td><td>obserwatorzy i eksperci</td><td>Pojedynczy polski personel wojskowy wykonywał zadania obserwacyjne: patrolowanie, kontakty ze stronami konfliktu, raportowanie i wsparcie dowództw misji.</td></tr>
+    </tbody></table></div>
+  </section>
+</main>
+<script>
+  document.querySelectorAll('img').forEach((img) => {
+    img.onerror = () => {
+      const label = encodeURIComponent(img.alt || 'Zdjęcie');
+      img.onerror = null;
+      img.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 520'%3E%3Crect width='900' height='520' fill='%23e8eef5'/%3E%3Crect x='24' y='24' width='852' height='472' rx='8' fill='%23ffffff' stroke='%23d8e0ea'/%3E%3Ctext x='450' y='250' text-anchor='middle' font-family='Arial' font-size='34' font-weight='700' fill='%23009edb'%3E${label}%3C/text%3E%3Ctext x='450' y='300' text-anchor='middle' font-family='Arial' font-size='22' fill='%235d6672'%3Eobraz niedostępny z serwera zewnętrznego%3C/text%3E%3C/svg%3E`;
+    };
+  });
+</script>
+</body>
+</html>
